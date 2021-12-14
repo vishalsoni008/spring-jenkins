@@ -15,4 +15,8 @@ public class Controller {
 		return "hello";
 	}
 
+	@GetMapping("/")
+	public void demos() {
+		return "hello";
+	}
 }
