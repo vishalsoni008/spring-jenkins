@@ -15,7 +15,7 @@ public class Controller {
 		return "hello";
 	}
 
-	@GetMapping("/")
+	@GetMapping("/demo2")
 	public String demos() {
 		return "hello2";
 	}
